@@ -147,15 +147,37 @@ code {
   margin-top: 80px;
 }
 
-.nav-custom {}
+.nav-custom {
+  background-color: #f0f0f0;
+  padding: 16px 0;
+  border-bottom: 2px solid #333;
+}
 
-.nav-custom ul {}
+.nav-custom ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
 
-.nav-custom li {}
+.nav-custom li {
+  margin: 0;
+}
 
-.nav-custom a {}
+.nav-custom a {
+  text-decoration: none;
+  color: #333;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
 
-.nav-custom a:hover {}
+.nav-custom a:hover {
+  background-color: #333;
+  color: #fff;
+}
 
 @media (width >=480px) {}
 
