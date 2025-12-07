@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale1" />
+        <title>Marco Murillo - Personal Landing Page</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container header-inner">
+                <h1 class="site-title">Marco Murillo</h1>
+                <nav class="site-nav" aria-label="Main Navigation">
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section id="hero" class="hero container">
+                <div class="hero-content">
+                    <h2 class="hero-title">Hello my name is Marco Murillo</h2>
+                    <p class="hero-lead>">I am learning to build interfaces and design clean user experiences. This is my first time learning or trying any type of front-end development, system design, or problem solving creative issues.</p>
+                    <a href="#projects" class="cta">See my work</a>
+                </div>
+                <div class="hero-image">
+                    <img src="hero.jpg" alt="Portrait of Your Name" />
+                </div>
+            </section>
+            <section id="about" class="about container">
+                <h2>About</h2>
+                <p>I am a student and full time financial analyst. I decided to pursue to degree in applied computer applications to learn a new skill in something I have zero knowledge in.</p>
+            </section>
+            <section id="skills" class="skills container">    
+                <h2>Skills & Interest</h2>
+                <div class="skills-grid">
+                    <article class="skills-card">
+                        <h3>Basic HTML</HTML></h3>
+                        <p>Entry Level Coding, basics, keyboard interactions.</p>
+                    </article>
+                    <article class="skills-card">
+                        <h3>JavaScript Basics</h3>
+                        <p>Very little, Transitions, web design</p>
+                    </article>
+                </div>
+            </section>
+            <section id="projects" class="projects container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <img src="project-01.jpg" alt="Project 1 Screenshot">
+                        <div class="project body">
+                            <h3>Project Title 01</h3>
+                            <p>This project is our first test in using the skills we have learned so far.</p>
+                            <a class="project-link" href="#" aria-label="Open Project 1">View</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img src="project-02.jpg" alt="Project 2 screenshot">
+                        <div class="project-body">
+                            <h3>Project Title 02</h3>
+                            <p>Placeholder project card for showcasing future work.</p>
+                            <a class="project-link" href="#" aria-label="Open Project 2">View</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img src="project-03.jpg" alt="Project 3 Screenshot">
+                        <div class="project-body">
+                            <h3>Project Title 03</h3>
+                            <p>Placeholder project card for showcasing future work.</p>
+                            <a class="project-link" href="#" aria-label="Open Project 3">View</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section id="contact" class="contact container">
+                <h2>Contact</h2>
+                <p>Want to collaborate or have a question? Email me at <a href="mailto:marcomur@ttu.edu">marcomur@ttu.edu</a>.</p>
+                <p class="location">Based in: Austin, Texas</p>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <small>© <span id="year"></span> Marco Murillo — Built with HTML & CSS</small>
+                <div class="footer-links">
+                    <a href="mailto:your-marcomur@ttu.edu" class="footer-link">Email</a>
+                    <a href="#" class="footer-link">Resume</a>
+                </div>
+            </div>
+        </footer>
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </body>
+</html>
